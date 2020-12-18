@@ -1,0 +1,47 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+input,
+.message,
+.directory {
+  width: 80%;
+  border: 2px orange solid;
+}
+
+input {
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.message {
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+.directory {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.directory span {
+  display: inline-block;
+  font-size: larger;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  input,
+  .message,
+  .directory {
+    width: 50%;
+  }
+}
